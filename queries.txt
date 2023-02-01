@@ -1,0 +1,3 @@
+collection.update_one( {"name":"Darty Papa"} , {"$set": { "slug": "Darty" }})
+
+collection.delete_one({"name": "Darty Papa"})
